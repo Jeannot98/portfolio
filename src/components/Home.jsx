@@ -10,7 +10,7 @@ const Home = () => {
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a react front-end develooper</h2>
                     <p className='text-gray-500 py-4 max-w-md'>
-                    I am a freshly graduated student (master's degree in computer network engineering and intelligent telecommunications systems). Dynamic and hardworking, I am looking for work experience in the IT field to learn and serve.
+                    I am a passionate React Js front-end developer.
                     </p>
                     <div>
                         <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>

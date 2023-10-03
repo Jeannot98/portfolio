@@ -13,10 +13,17 @@ const Portfolio = () => {
 
         },
         {
-            id: 1,
+            id: 2,
             src: Project2,
             demo:"https://shop-1xk.pages.dev/",
             code:"https://github.com/Jeannot98/shop",
+
+        },
+        {
+            id: 3,
+            src: Project2,
+            demo:"https://weather-app-ek8.pages.dev/",
+            code:"https://github.com/Jeannot98/Weather-app",
 
         },
     ]
@@ -27,7 +34,7 @@ const Portfolio = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
                     <p className='py-6'>Check out some of my work right here</p>
                 </div>
-                <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {portfolios.map(({ id, src, demo, code }) => (
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
