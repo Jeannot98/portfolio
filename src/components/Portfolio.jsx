@@ -1,6 +1,7 @@
 import React from 'react'
 import Project1 from '../assets/Capture.png'
 import Project2 from '../assets/Capture1.png'
+import Project3 from '../assets/weather.png'
 
 const Portfolio = () => {
 
@@ -21,7 +22,7 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: Project2,
+            src: Project3,
             demo:"https://weather-app-ek8.pages.dev/",
             code:"https://github.com/Jeannot98/Weather-app",
 
