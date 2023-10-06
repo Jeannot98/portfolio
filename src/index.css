@@ -9,5 +9,6 @@
 @layer base{
   html{
     font-family: 'Raleway', sans-serif;
+    background: rgb(223, 215, 215);
   }
 }
